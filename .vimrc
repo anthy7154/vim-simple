@@ -3,6 +3,10 @@ set clipboard=unnamed
 set noswapfile
 set showcmd
 set title
+set number
+set cursorline
+set noshowmode
+set nolist
 
 " filetype
 filetype on
