@@ -1,9 +1,9 @@
 " disable arrow keys
-noremap <UP> <NOP>
-noremap <DOWN> <NOP>
-noremap <LEFT> <NOP>
-noremap <RIGHT> <NOP>
-inoremap <UP> <NOP>
-inoremap <DOWN> <NOP>
-inoremap <LEFT> <NOP>
-inoremap <RIGHT> <NOP>
+noremap <UP> <Nop>
+noremap <DOWN> <Nop>
+noremap <LEFT> <Nop>
+noremap <RIGHT> <Nop>
+inoremap <UP> <Nop>
+inoremap <DOWN> <Nop>
+inoremap <LEFT> <Nop>
+inoremap <RIGHT> <Nop>
