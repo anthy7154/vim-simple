@@ -4,9 +4,14 @@ set showmatch	" highlight brackets in pairs
 set ruler
 set scrolloff=3
 
+" color
 syntax on
 set bg=dark
-colorscheme darkblue
+try
+    colorscheme gruvbox
+catch
+    colorscheme darkblue
+endtry
 
 " <tab> and <space>
 set softtabstop=4
