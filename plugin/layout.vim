@@ -18,3 +18,10 @@ set showtabline=2
 set splitbelow
 set splitright
 set equalalways
+
+" auto remove space from end of line
+autocmd BufWritePre * :%s/\s\+$//e
+
+" show cursorline at current window
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
