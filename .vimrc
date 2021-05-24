@@ -22,3 +22,13 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
 call plug#end()
+
+" disable arrow keys
+noremap <UP> <Nop>
+noremap <DOWN> <Nop>
+noremap <LEFT> <Nop>
+noremap <RIGHT> <Nop>
+inoremap <UP> <Nop>
+inoremap <DOWN> <Nop>
+inoremap <LEFT> <Nop>
+inoremap <RIGHT> <Nop>
