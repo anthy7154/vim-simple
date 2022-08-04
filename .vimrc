@@ -32,3 +32,6 @@ inoremap <UP> <Nop>
 inoremap <DOWN> <Nop>
 inoremap <LEFT> <Nop>
 inoremap <RIGHT> <Nop>
+
+" bind jk to Esc
+inoremap jk <Esc>
